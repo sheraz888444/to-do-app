@@ -1,0 +1,140 @@
+/* General reset and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.to-do-list {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.to-do-list h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+.to-do-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.to-do-list input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.to-do-list input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+.add-task {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-task:hover {
+  background-color: #27ae60;
+}
+
+ol {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.text {
+  flex: 1;
+  font-size: 18px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.task-up {
+  background-color: #f39c12;
+  color: white;
+}
+
+.task-up:hover {
+  background-color: #d68910;
+}
+
+.task-down {
+  background-color: #3498db;
+  color: white;
+}
+
+.task-down:hover {
+  background-color: #2980b9;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ecf0f1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-weight: bold;
+  color: #2c3e50;
+  width: 30px;
+  text-align: right;
+}
+
+.text {
+  flex: 1;
+  font-size: 18px;
+}
